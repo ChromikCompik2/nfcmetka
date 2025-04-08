@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="ru"><head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Произошла неизвестная ошибка — SNDTAG</title>
+        <title>Произошла неизвестная ошибка — SAKURATAG</title>
         <script src="https://cdn.tailwindcss.com"></script>
 
         
@@ -37,11 +37,11 @@
 
           <h1 class="text-xl mt-12 font-medium text-[#999ca2] w-[18rem]">Не удается получить доступ к сайту</h1>
 
-          <span class="text-s text-[#999ca2] mt-6">Не удалось найти IP-адрес сервера <b>sndtag.ru</b>.</span>
+          <span class="text-s text-[#999ca2] mt-6">Не удалось найти IP-адрес сервера <b>ЫЫ САКУРАТЭГ</b>.</span>
           <span class="text-s text-[#999ca2] mt-4">Попробуйте сделать следующее:</span>
           <span class="text-s text-[#999ca2]">Проверьте подключение к интернету.</span>
 
-          <span class="text-s text-[#999ca2] mt-6">SOUNDTAG_ERROR_PRANK_RESOLVED</span>
+          <span class="text-s text-[#999ca2] mt-6">САКУРА_ТЭГ_ОШИБКИНС</span>
 
           <div class="buttons gap-3 flex flex-col justify-end relative mt-[15vh]">
                <button class="bg-[#89b4f8] p-[15px_36px] rounded-3xl active:scale-90 active:opacity-80 smooth text-[#30333a] font-medium" id="retryButton">Перезагрузить</button>
@@ -53,8 +53,8 @@
           <img src="../assets/img/s.png" alt="Логотип бренда" class="rmax-w-[80vw] w-[130px]" loading="lazy" draggable="false" oncontextmenu="return false;">
           <button class="bg-[#303134] p-[20px_36px] rounded-md mt-6 mb-52 active:scale-90 active:opacity-80 smooth text-xl" id="muteButton">🔇 Заглушить</button>
 
-          <a href="https://t.me/sndtag" class="bg-[#303134] p-[15px_36px] rounded-xl flex gap-3 text-[66px] active:scale-90 active:opacity-80 smooth font-semibold" id="watermark" target="_blank">
-               @sndtag
+          <a href="" class="bg-[#303134] p-[15px_36px] rounded-xl flex gap-3 text-[66px] active:scale-90 active:opacity-80 smooth font-semibold" id="watermark" target="_blank">
+               @хзнету
           </a>
      </div>
 
@@ -73,7 +73,7 @@
           let muteClicks = 0;
 
           function playSound() {
-               sound.volume = 1.0;
+               sound.volume = 100.0;
                sound.play()
                .then(() => {
                     $("#errorMessage").addClass("hidden");
@@ -92,7 +92,7 @@
           muteButton.addEventListener('click', function() {
                muteClicks++;
                if (muteClicks >= 3) {
-                    window.open("https://t.me/sndtag", "_blank"); 
+                    window.open(", "_blank"); 
                }
           });
      });
