@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Жми!</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+      margin: 0;
+    }
+    .sound-button {
+      width: 200px;
+      height: 200px;
+      border: none;
+      border-radius: 50%;
+      background-image: url('https://otvet.imgsmail.ru/download/2489666_4f0c834bb2dcd00e1b888d7fafba2524_800.gif');
+      background-size: cover;
+      background-position: center;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s;
+    }
+    .sound-button:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <button class="sound-button" onclick="playSound()"></button>
+
+  <script>
+    function playSound() {
+      const audio = new Audio('https://zvukogram.com/mp3/cats/210/pukane-4.mp3');
+      audio.play();
+    }
+  </script>
+</body>
+</html>
